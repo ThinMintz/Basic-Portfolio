@@ -3,7 +3,9 @@ body {
 	color: #777777;
  /* Trying to make a stick footer! height 100% */
     margin: 0 auto;
-     */    padding: 0; 
+    padding: 0;
+   /*  background-image: url(assets/images/corkwallet.png); Trying to get a background to work, didn't though*/
+
 }
 
 /* Trying to make a stick footer! Didn't work! :(
@@ -40,7 +42,7 @@ aside {
 	width: 260px;
 	height: 185px;
 	padding: 30px 20px 20px 20px;
-	float: left;
+/* 	float: left; trying to keep the aside next to section*/
 	background-color: white;
 	padding: 10px;
 	border-color: #dddddd;
@@ -62,7 +64,7 @@ aside {
     display: inline-block;
     color: #777777;
     text-align: center;
-    padding: 14px 16px;
+    padding: 2px 16px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -126,15 +128,15 @@ section {
 section img {
 	float: left;
 	padding-right: 20px;
-	width: 25%;
-	height: 25%;
-
+	width: 325px;
 }
 
-section p {
-	display: inline-block;
+section h3 {
 /* 	border: 1px solid red; trying to get this paragraph to work */
 	width: 330px;
+	font-size: 20px;
+	color: white;
+	position: absolute;
 }
 
 header {
@@ -156,6 +158,8 @@ nav a {
 	padding-left: 20px;
 	padding-right: 20px;
 	border-right: 1px solid #cccccc;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
 nav a:first-child {
@@ -171,8 +175,7 @@ nav a:first-child {
 	width: 960px;
 	display: block;
 	margin: 0 auto;
-	
-}
+	}
 
 p {
 	margin-top: 0px;
@@ -194,7 +197,57 @@ aside img {
 	height: 70px;
 }
 
-.images {
+/* .images {
 	float: left;
-	display: block;
+	display: inline;
+}
+change to a class
+.names {
+	background-color: #4aaaa5;
+	position: relative;
+	height: 45px;
+	width: 325px;
+	text-align: center;
+	margin-top: 113px;
+	padding-top: 18px;
+	padding-bottom: 12px;
+	font-size: 30px;
+	;
+}
+
+.image1 {
+	position: absolute;
+}
+change the div to overflow */
+
+
+
+.title {
+	font-size: 30px;
+	background: #4aaaa5;
+	color:white;
+}
+
+.image {
+	width: 200px;
+	height: 200px;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding: 1em;
+	grid-gap: 1em;
+}
+
+.names {
+	background-color: #4aaaa5;
+	width: 260px;
+	padding:20px;
+	margin-top: 118px;
+
+}
+
+.box {
+	position: relative;
 }
