@@ -45,7 +45,7 @@ aside {
 /* 	float: left; trying to keep the aside next to section*/
 	background-color: white;
 	padding: 10px;
-	border-color: #dddddd;
+	border: 1px solid #b7b1b1;
 	margin-top: 30px;
 	margin-left: 30px;
 }
@@ -116,13 +116,14 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 section {
-    border-radius: 5px;
+    /* border-radius: 5px; This added rounded corners! */
     background-color: #ffffff;
     padding: 20px;
     width: 650px;
 	float: left;
 	margin-top: 30px;
 	margin-bottom: 300px;
+	border: 1px solid #b7b1b1;
 }
 
 section img {
@@ -187,7 +188,7 @@ aside .container{
 }
 
 aside h2 {
-	text-align: left;
+	text-align: center;
 }
 
 aside img {
@@ -251,4 +252,12 @@ change the div to overflow */
 
 .box {
 	position: relative;
+}
+
+aside hr {
+	margin-bottom: 20px;
+}
+/* Trying to move the icons to center them */
+.icons {
+	margin: 17px;
 }
