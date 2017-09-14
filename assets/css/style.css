@@ -229,7 +229,7 @@ change the div to overflow */
 }
 
 .image {
-	width: 200px;
+	width: 300px;
 	height: 200px;
 }
 
@@ -245,6 +245,7 @@ change the div to overflow */
 	width: 260px;
 	padding:20px;
 	margin-top: 118px;
+	text-align: center;
 
 }
 
